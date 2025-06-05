@@ -4,10 +4,19 @@ using UnityEngine;
 
 public class Colisionador : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
+    public float cost;
+    public MoneyManager moneyManager;
+
+    void Start()
+    {
+        moneyManager = FindObjectOfType<MoneyManager>();
+    }
+    void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.name == "Player")
         {
+            // actualizar dinero por la compra
+            moneyManager.updatemoney(cost);
             Destroy(gameObject);
         }
     }
