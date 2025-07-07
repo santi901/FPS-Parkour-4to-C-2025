@@ -13,16 +13,8 @@ public class UIManager : MonoBehaviour
         
     }
 
-<<<<<<< HEAD
-    public void UpdateMoneyTxt(string moneyAmount)
-    {
-        txtMoney.text = moneyAmount;
-    }
-
-=======
     public void updateMoneyTxt(string moneyAmount)
     {
         txtMoney.text = moneyAmount;
     }
->>>>>>> 33af1b07c85a03898855aeb09da046e48cbe4825
 }
