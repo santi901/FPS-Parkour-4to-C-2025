@@ -18,7 +18,6 @@ public class MercanciaScript : MonoBehaviour
         {
             //actualizar dinero por la compra
             moneyManager.UpdateMoney(-cost);
-            Destroy(gameObject);
         }        
     }
 }
