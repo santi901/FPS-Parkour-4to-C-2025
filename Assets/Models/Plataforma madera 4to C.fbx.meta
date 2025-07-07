@@ -31,15 +31,35 @@ ModelImporter:
     4300006: Soporte_piso
   externalObjects:
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Clavo
+    second: {fileID: 2100000, guid: aa763104f14b15f4a9bd131a3bed2d7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Madera_Poste
+    second: {fileID: 2100000, guid: 2c85a7123dd88db4eb4bf69a99f83bbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Madera_Tablas
+    second: {fileID: 2100000, guid: 405910df79c17eb4a8aaa948928d1ff5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Madera_Tablas.001
+    second: {fileID: 2100000, guid: 9e6dd88734888d84581e60cc4e457952, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: TexturesCom_WoodRough0089_1_seamless_S
-    second: {fileID: 2800000, guid: 1f5fbd7f3d7d4e34eb5dc36fd7312ddb, type: 3}
+    second: {fileID: 2800000, guid: 286eb6069d15a2046b5cc659930701e9, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: rough_wood_diff_1k
-    second: {fileID: 2800000, guid: 10195512593041e4db2000b3c6a55c4d, type: 3}
+    second: {fileID: 2800000, guid: 6bd29ba5dfcf14540964078bc77c58aa, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
