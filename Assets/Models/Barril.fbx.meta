@@ -19,7 +19,7 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: barril textura 3
-    second: {fileID: 2800000, guid: a4442358c955fd148abdd7bd9e7b59c8, type: 3}
+    second: {fileID: 2800000, guid: 6f3482e9afa61d740a415e81632e0f19, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
