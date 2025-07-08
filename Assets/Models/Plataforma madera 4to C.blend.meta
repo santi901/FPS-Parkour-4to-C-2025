@@ -1,65 +1,34 @@
 fileFormatVersion: 2
-guid: 9eb5cf704eb62c446afde884f17dfedf
+guid: 11bc7fb0fa5cf104badfcff5292128c0
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Piso_Maderas4x4
-    100002: //RootNode
-    100004: Poste_Madera
-    100006: Soporte_piso
-    100008: Viga_Madera
-    400000: Piso_Maderas4x4
-    400002: //RootNode
-    400004: Poste_Madera
-    400006: Soporte_piso
-    400008: Viga_Madera
+    100000: barra
+    100002: pallet
+    100004: patas completas
+    100006: //RootNode
+    100008: poste
+    400000: barra
+    400002: pallet
+    400004: patas completas
+    400006: //RootNode
+    400008: poste
     2100000: Madera_Tablas
     2100002: Clavo
-    2100004: Madera_Poste
-    2100006: Madera_Tablas.001
-    2300000: Piso_Maderas4x4
-    2300002: Poste_Madera
-    2300004: Soporte_piso
-    2300006: Viga_Madera
-    3300000: Piso_Maderas4x4
-    3300002: Poste_Madera
-    3300004: Soporte_piso
-    3300006: Viga_Madera
-    4300000: Piso_Maderas4x4
-    4300002: Viga_Madera
-    4300004: Poste_Madera
-    4300006: Soporte_piso
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Clavo
-    second: {fileID: 2100000, guid: 1835c966db72a4c499a1545098c25b5c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Madera_Poste
-    second: {fileID: 2100000, guid: ccc24b81413ff34438cc13b94d83fc4e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Madera_Tablas
-    second: {fileID: 2100000, guid: b3e1aad906810004b8cd7ff0a818dc37, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Madera_Tablas.001
-    second: {fileID: 2100000, guid: f43495971a19ebf44ba8fe26ee498722, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: TexturesCom_WoodRough0089_1_seamless_S
-    second: {fileID: 2800000, guid: 350a7d954ab0c1741818a5b1f07b797a, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: rough_wood_diff_1k
-    second: {fileID: 2800000, guid: 5f9a1eef268bfc648b345fdab8eeacad, type: 3}
+    2100004: MaderaPoste
+    2300000: barra
+    2300002: pallet
+    2300004: patas completas
+    2300006: poste
+    3300000: barra
+    3300002: pallet
+    3300004: patas completas
+    3300006: poste
+    4300000: pallet
+    4300002: poste
+    4300004: patas completas
+    4300006: barra
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
